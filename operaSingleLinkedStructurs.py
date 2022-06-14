@@ -38,7 +38,7 @@ else:
     print(f"The target item {target_item} is not in the linked list")
 
 # * Insertar un nuevo elemento/nodo al inicio(head)
-head = Node("F", head)
+head =  Node("F", head)
 
 # * Inserta
 # r un nuevo elemento/nodo al final(tail)
