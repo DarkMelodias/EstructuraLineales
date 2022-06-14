@@ -1,3 +1,4 @@
+import random
 
 class Array(object):
     "Represents an array."
@@ -31,3 +32,15 @@ class Array(object):
     def __setitem__(self, index, new_item):
         """Subscript operator for replacement at index."""
         self.items[index] = new_item
+
+    def __setRandom__(self):
+        i = 0
+        for item in self.items:
+            self.items[i] = random.randint(0, 100)
+            i += 1
+    
+    def __getSum__(self):
+        suma = 0
+        for item in self.items:
+            suma += item
+        return suma
