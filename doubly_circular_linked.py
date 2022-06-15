@@ -1,6 +1,6 @@
 from double_linked_list import TwoWayNode
 
-# ! Circle Double Linked List
+# Circle Double Linked List
 class circleDoubleLinkedList():
     def __init__(self):
         self.head = TwoWayNode(None,None,None)
